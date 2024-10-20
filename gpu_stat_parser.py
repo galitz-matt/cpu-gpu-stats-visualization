@@ -52,7 +52,7 @@ def get_plot_data(data):
 
 
 def plot_helper():
-	plt.gca().xaxis.set_major_locator(mdates.SecondLocator(interval=45))
+	plt.gca().xaxis.set_major_locator(mdates.SecondLocator(interval=60))
 	plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M:%S'))
 	plt.xticks(rotation=30)
 	plt.xlabel('Time')
